@@ -603,7 +603,8 @@ a.username {
 }
 
 #post-twitter-label .label-text,
-#private-label .label-text {
+#private-label .label-text,
+#post_mixi_check_label .label-text {
     background: -2px 50% no-repeat;
     padding-left: 14px;
 }
@@ -1063,4 +1064,8 @@ em a:visited {
 
 #search-tab {
   padding-left: 0;
+}
+
+#post_mixi_check_label .label-text {
+    background-image: url(/images/icon-mixi.png);
 }
